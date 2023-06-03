@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.inner-list-item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  padding: 0.5rem;
+}
+.inner-title {
+  color: #505357;
+}
+.inner-amount {
+  color: #505357;
+  margin-left: 3rem;
+}
+.inner-type {
+  color: #505357;
+  margin-left: 3rem;
+}
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  margin-left: auto;
+  margin-right: 2rem;
+}
+.delete-img {
+  width: 25px;
+  align-self: flex-end;
+}

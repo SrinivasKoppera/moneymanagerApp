@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.transaction-container {
+  border: 1px solid #cbd5e1;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 30rem;
+}
+.transaction-heading {
+  color: #7e858e;
+  margin-bottom: 1rem;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.label {
+  color: #4c4f53;
+  margin-bottom: 0.5rem;
+  font-family: 'Roboto';
+  font-size: 0.9rem;
+}
+.input-field {
+  padding: 0.6rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.input-field:focus {
+  box-shadow: 1px 1px 5px #508beb;
+  outline: none;
+}
+.input-field:hover {
+  opacity: 0.8;
+}
+.submit-btn {
+  color: #ffffff;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  height: 36px;
+  width: 80px;
+  font-weight: bold;
+}
